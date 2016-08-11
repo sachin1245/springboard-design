@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
 }
 
+/*-------------banner -------------------*/
 #banner {
   margin-bottom: 0;
   background: url(../images/banner.jpg);
@@ -90,6 +91,7 @@ body {
 }
 
 /*banner*/
+/*-----------------testimonal-------------------*/
 #testimonal {
   margin-top: 0;
   padding: 20px 200px 0 170px;
@@ -171,6 +173,7 @@ body {
 }
 
 /*#mainContent*/
+/*--------------pdfCta-----------------------*/
 #pdfCta {
   clear: both;
   background: #2abf9e;
@@ -194,6 +197,7 @@ body {
 }
 
 /*#pdfCta*/
+/*---------------footer---------------*/
 footer {
   background: #48485e;
   color: white;
@@ -270,6 +274,7 @@ footer #workshops ul li a:hover, footer #resources ul li a:hover, footer #compan
   text-decoration: underline;
 }
 
+/*--------------bottombar ---------------------*/
 #bottombar {
   background: #3b3b4e;
   height: 70px;
