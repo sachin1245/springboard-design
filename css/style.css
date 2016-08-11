@@ -1,0 +1,291 @@
+/*----------------------- Global Styles  -----------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#banner {
+  margin-bottom: 0;
+  background: url(../images/banner.jpg);
+  height: 626px;
+  /*content*/
+}
+#banner header {
+  width: 100%;
+  height: 60px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+#banner header p {
+  height: 46px;
+  margin-left: 142px;
+  margin-top: 8px;
+  display: inline-block;
+}
+#banner header nav {
+  display: inline-block;
+  float: right;
+  margin-right: 146px;
+}
+#banner header nav ul {
+  list-style: none;
+}
+#banner header nav ul li {
+  display: inline-block;
+  margin-left: 28px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+#banner header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+#banner #content {
+  color: white;
+  margin: 162px 0 0 138px;
+}
+#banner #content h1 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 22px;
+}
+#banner #content h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin: 22px 0 32px;
+}
+#banner #content .seperator {
+  width: 52px;
+  height: 2px;
+  background-color: #efff1d;
+  position: relative;
+  margin: 32px 0 0;
+}
+#banner #content table {
+  border-collapse: separate;
+}
+#banner #content table td {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 18px;
+}
+#banner #content table .pad {
+  padding-top: 0;
+  display: inline-block;
+  margin: 18px 18px 0 0;
+  font-weight: 100;
+  font-style: italic;
+}
+#banner #content table #tcolor {
+  color: #aeb826;
+}
+
+/*banner*/
+#testimonal {
+  margin-top: 0;
+  padding: 20px 200px 0 170px;
+  background-color: #efeff6;
+  height: 210px;
+  color: #0b0b09;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+#testimonal p {
+  line-height: 1.2;
+  display: inline-block;
+}
+#testimonal span {
+  margin: 0 6px;
+  font-size: 36px;
+  color: #5b5b76;
+}
+
+/*testimonal*/
+#mainContent {
+  margin: 64px 140px;
+}
+#mainContent .left {
+  float: left;
+  width: 680px;
+  padding-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #48484e;
+}
+#mainContent .left p {
+  line-height: 1.8;
+  margin-bottom: 34px;
+}
+#mainContent .left h2 {
+  font-family: 'Roboto', sans-serif;
+}
+#mainContent .right {
+  float: right;
+  width: 382px;
+  padding-top: 16px;
+}
+#mainContent .right img {
+  width: 382px;
+  height: 284px;
+  margin-bottom: 40px;
+}
+#mainContent #mid {
+  margin: 40px 0;
+}
+#mainContent #mid img {
+  max-width: 100%;
+}
+#mainContent #content2 .left {
+  margin-bottom: 60px;
+}
+#mainContent #content2 .left a {
+  text-decoration: none;
+  color: #38c3a4;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+#mainContent #content2 .right p {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #48485e;
+}
+#mainContent #content2 .right p span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/*#mainContent*/
+#pdfCta {
+  clear: both;
+  background: #2abf9e;
+  height: 150px;
+  width: 100%;
+  color: white;
+}
+#pdfCta #left {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 44px;
+  float: left;
+}
+#pdfCta #left p {
+  margin: 0;
+  padding: 0 0 0 140px;
+}
+#pdfCta #right {
+  float: right;
+}
+
+/*#pdfCta*/
+footer {
+  background: #48485e;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+footer div {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 100px;
+}
+footer #updates {
+  height: 304px;
+  margin: 78px 0 0 112px;
+}
+footer #updates #text {
+  display: inline-block;
+  max-width: 75%;
+  font-family: 'Roboto', sans-serif;
+}
+footer #updates #text h1 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+footer #updates #text p {
+  margin-top: 0;
+}
+footer #updates input {
+  padding: 5px;
+  margin-right: 0;
+  background: #3b3b4e;
+  border: none;
+}
+footer #updates button {
+  background: #efff1d;
+  margin-left: 0;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #48485e;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+footer #workshops {
+  margin-left: 120px;
+  width: 150px;
+}
+footer #resources {
+  width: 150px;
+}
+footer #workshops, footer #resources, footer #company {
+  margin-top: 74px;
+}
+footer #workshops h4, footer #resources h4, footer #company h4 {
+  color: #2abf9e;
+  text-align: left;
+}
+footer #workshops ul, footer #resources ul, footer #company ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer #workshops ul li, footer #resources ul li, footer #company ul li {
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+footer #workshops ul li a, footer #resources ul li a, footer #company ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+footer #workshops ul li a:hover, footer #resources ul li a:hover, footer #company ul li a:hover {
+  color: #efff1d;
+  text-decoration: underline;
+}
+
+#bottombar {
+  background: #3b3b4e;
+  height: 70px;
+  color: white;
+}
+#bottombar #left {
+  display: inline-block;
+  padding: 15px 0 0 112px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+#bottombar #left p {
+  display: inline-block;
+}
+#bottombar #right {
+  float: right;
+  margin: 15px 112px 0 0;
+}
